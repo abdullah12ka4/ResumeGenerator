@@ -52,10 +52,10 @@ function App() {
   }
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-blue-50 to-gray-100 flex flex-col items-center p-6'>
+    <div className='min-h-screen bg-gradient-to-br from-gray-200 to-gray-400 flex flex-col items-center p-6'>
       <h1 className='text-3xl font-bold mb-6 text-blue-700'>Resume Generator</h1>
 
-      <form className='w-full max-w-3xl bg-white shadow-lg rounded-xl p-6 space-y-4'>
+      <form className='w-full max-w-3xl bg-gray-400 shadow-lg rounded-xl p-6 space-y-4'>
         <input
           type='text'
           name='name'
