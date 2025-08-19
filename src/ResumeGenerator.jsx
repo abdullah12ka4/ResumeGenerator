@@ -8,25 +8,23 @@ import {
 
 function App() {
   const [data, setdata] = useState({
-  "name": "Abdullah Khan",
-  "subject": "Frontend Web Developer",
-  "cnic": "35202-1234567-8",
-  "birth": "1997-08-14",
-  "gender": "Male",
-  "status": "Single",
-  "address": "123 Street, Lahore, Pakistan",
-  "email": "abdullah.dev@example.com",
-  "phone": "+92 300 1234567",
-  "skills": "HTML5\nCSS3 / TailwindCSS / Bootstrap\nJavaScript (ES6+)\nReact.js / Next.js\nTypeScript\nREST API & GraphQL\nGit & GitHub\nResponsive Design\nTesting (Jest, React Testing Library)\nFigma to Code",
-  "education": [
-    { "degree": "BS Computer Science - University of Lahore", "year": "2019 - 2023", "grade": "3.6/4.0 GPA" },
-    { "degree": "Intermediate (Pre-Engineering) - Punjab College", "year": "2017 - 2019", "grade": "A Grade" }
-  ],
-  "experiences": "Frontend Developer at TechVision Pvt. Ltd. (Jan 2023 – Present)\nWorked on multiple SaaS web applications and optimized performance by 30%. Collaborated with backend developers and designers in an Agile environment.",
-  "responsible": "Develop and maintain responsive web applications using React.js and TailwindCSS\nImplement reusable UI components and custom hooks\nIntegrate REST APIs and GraphQL queries\nOptimize performance and accessibility (Lighthouse 90+)\nVersion control using Git/GitHub and CI/CD pipelines\nCollaborate with designers to convert Figma wireframes to responsive code\nWrite unit tests and maintain code quality with ESLint and Prettier",
-  "language": "English (Fluent)\nUrdu (Native)\nPunjabi (Conversational)",
-  "hobbies": "Coding side projects\nOpen-source contributions\nUI/UX design exploration\nGaming\nTraveling",
-  "summary": "Highly motivated Frontend Web Developer with 2+ years of experience building responsive and user-friendly web applications using React.js, TailwindCSS, and modern JavaScript frameworks. Strong background in UI/UX implementation, API integration, and performance optimization. Passionate about writing clean, maintainable code and continuously learning new technologies to deliver high-quality digital experiences."
+  name: "",
+  subject: "",
+  cnic: "",
+  birth: "",
+  gender: "",
+  status: "",
+  address: "",
+  email: "",
+  phone: "",
+  skills: "",
+  education: [
+    { degree: "", year: "", grade: "" }, ],
+  experiences: "",
+  responsible: "",
+  language: "",
+  hobbies: "",
+  summary: ""
 }
 )
 
